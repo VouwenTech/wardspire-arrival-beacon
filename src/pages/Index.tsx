@@ -21,7 +21,7 @@ const Index = () => {
         <div className="backdrop-blur-sm bg-black/30 border-t border-white/10">
           <div className="px-6 py-4">
             <p className="text-center text-white/70 text-xs font-display font-light tracking-wide">
-              © {new Date().getFullYear()} WARDSPIRE. All rights reserved.
+            WARDSPIRE © {new Date().getFullYear()} Vouwen GmbH. All rights reserved.
             </p>
           </div>
         </div>
