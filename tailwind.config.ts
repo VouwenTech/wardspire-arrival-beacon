@@ -63,6 +63,19 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
+			fontFamily: {
+				'display': ['Inter', 'system-ui', 'sans-serif'],
+			},
+			backgroundImage: {
+				'hero-mountain': "url('/lovable-uploads/6bdb7b9b-827d-4163-9ff8-02df5162d5b2.png')",
+			},
+			textShadow: {
+				'hero': 'var(--hero-text-shadow)',
+			},
+			backgroundColor: {
+				'hero-overlay': 'hsl(var(--hero-overlay))',
+				'footer-backdrop': 'hsl(var(--footer-backdrop))',
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
