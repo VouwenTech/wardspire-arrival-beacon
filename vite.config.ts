@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode, command }) => ({
-  base: (mode === 'production' && process.env.GITHUB_PAGES) ? '/wardspire-arrival-beacon/' : '/',
+  base: '/',
   server: {
     host: "::",
     port: 8080,
